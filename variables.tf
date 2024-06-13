@@ -44,6 +44,6 @@ variable "environment"{
 
   validation  {
     condition      = contains(["dev","qa","prod"],var.environment)
-    errer_messages = "The environment value must be dev,qa, or prod."
+    errer_message  = "The environment value must be dev,qa, or prod."
   }
 }
