@@ -1,7 +1,7 @@
 name: Terraform DEV Destroy
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
 
 env:
   MY_PREFIX: DEV
